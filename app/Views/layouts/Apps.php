@@ -36,7 +36,16 @@
                 </div>
 
                 <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
-
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="/assets/img/about-us.jpg" alt="Profile Logo" class="profile-logo rounded-circle" width="30" height="30">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/profile">Profile</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/logout">Logout</a>
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
                             <i class="fas fa-th-large"></i>

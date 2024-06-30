@@ -1,4 +1,4 @@
-<?= $this->extend('layouts\app.php') ?>
+<?= $this->extend('layouts\Apps.php') ?>
 <?= $this->section('content') ?>
 
 

@@ -42,7 +42,7 @@ class Auth extends Controller
                 $session->set($userData);
 
                 // Redirect ke halaman dashboard jika login berhasil
-                return redirect()->to('/control_panel');
+                return redirect()->to('/dashboard');
             } else {
                 // Jika password salah, set pesan kesalahan dan redirect kembali ke halaman login
                 $session->setFlashdata('error', 'Password salah.');
